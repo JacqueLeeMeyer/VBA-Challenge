@@ -25,7 +25,8 @@ Sub Stock_Market():
     
       ' Set OpenRate Value
       OpenRate = ws.Cells(2, 3).Value
-       ' Set Up Table
+       
+        ' Set Up Table
         ws.Range("I1").Value = "Ticker"
         ws.Range("J1").Value = "Yearly Change"
         ws.Range("K1").Value = "Percent Change"
